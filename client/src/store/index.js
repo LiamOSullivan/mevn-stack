@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import { modalStoreModule } from './modal.store'
 import { usersStoreModule } from './users.store'
+import { sitesStoreModule } from './sites.store'
 
 Vue.use(Vuex)
 
@@ -18,6 +19,7 @@ export const store = new Vuex.Store({
   actions: {},
   modules: {
     users: { ...usersStoreModule },
+    sites: { ...sitesStoreModule },
     modal: { ...modalStoreModule },
   },
 })

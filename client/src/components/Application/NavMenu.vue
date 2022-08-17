@@ -49,6 +49,11 @@ export default {
         route: '/users',
         icon: 'mdi-account-group',
       },
+      {
+        text: 'Sites',
+        route: '/sites',
+        icon: 'mdi-home-map-marker',
+      },
     ],
   }),
 }
